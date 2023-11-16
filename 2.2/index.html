@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <main>
+      <form class="login-form form">
+        <h1 class="form__header">Вход</h1>
+        <label for="login" class="form__label">Логин:</label>
+        <input
+          type="text"
+          id="login"
+          name="login"
+          class="form__input"
+          required
+        >
+        <label for="password" class="form__label">Пароль:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="form__input"
+          required
+        >
+        <label class="form__remember">
+          <input type="checkbox" name="remember" class="form__checkbox">
+          Запомнить меня
+        </label>
+        <button type="submit" class="form__button">Войти</button>
+      </form>
+    </main>
+  </body>
+</html>

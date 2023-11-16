@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  background-image: url(../paper-style-white-monochrome-background_52683-66443.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.form {
+  max-width: 600px;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form__input,
+.form__select,
+.form__textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form__checkbox {
+  margin-right: 5px;
+}
+
+.form__radio {
+  margin-right: 5px;
+}
+
+.form__button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #45a049;
+}
+
+.form__fieldset {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #cecece;
+  background: white;
+  border-radius: 10px;
+}
+
+.form__legend {
+  margin-left: 10px;
+}
+
+.form__consent {
+  display: flex;
+  margin: 13px 0px;
+  align-items: center;
+}
+
+.form__remember {
+  margin: 10px 0px;
+  display: flex;
+}
+
+.form__option {
+  display: flex;
+  padding: 27px;
+}
+
+.form__header {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
